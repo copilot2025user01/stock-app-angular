@@ -44,11 +44,22 @@ export class HomeComponent {
       }
     });
   }
-
+  //function addTowishList to add a stock to the wishlist using stockservice. pass stock as a parameter. 
   addToWishList(stock: Stock) {
-    console.log(stock);
+    this.stockService.addToWishList(stock).subscribe({
+      next: (response: any) => {
+        console.log(response);
+        this.message = 'Stock added to wishlist';
+        alert(this.message);
+      },
+      error: (error) => {
+        console.log(error)
+      },
+      complete: () => {
+        console.log('complete')
+      }
+    });
   }
-
   getStocksByPage(page: any) {
     throw new Error('Method not implemented.');
   }

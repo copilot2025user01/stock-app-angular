@@ -1,15 +1,26 @@
 {
-    "wishlist": [
-        {
-            "id": 1,
-            "symbol": "08GPG",
-            "name": "Nippon India Mutual Fund",
-            "currency": "INR",
-            "exchange": "BSE",
-            "mic_code": "XBOM",
-            "country": "India",
-            "type": "Common Stock",
-            "figi_code": ""
-        }
-    ]
+  "wishlist": [
+    {
+      "id": "eaf2",
+      "symbol": "08GPG",
+      "name": "Nippon India Mutual Fund",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    },
+    {
+      "id": "85ad",
+      "symbol": "08QPR",
+      "name": "Nippon India Mutual Fund",
+      "currency": "INR",
+      "exchange": "BSE",
+      "mic_code": "XBOM",
+      "country": "India",
+      "type": "Common Stock",
+      "figi_code": ""
+    }
+  ]
 }

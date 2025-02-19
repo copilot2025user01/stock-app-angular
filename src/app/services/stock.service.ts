@@ -30,6 +30,17 @@ export class StockService {
   }
 
 
+  //function  deleteStock to delete a stock from the wishlist. pass stock as a parameter
+  deleteStock(stock: any) {
+    return this.http.delete(`http://localhost:3000/wishlist/${stock.id}`);
+  }
+
+
+  //function  addToWishList to add a stock to the wishlist. pass stock as a parameter
+  addToWishList(stock: any) {
+    return this.http.post('http://localhost:3000/wishlist', stock);
+  }
+
 
 }
 
